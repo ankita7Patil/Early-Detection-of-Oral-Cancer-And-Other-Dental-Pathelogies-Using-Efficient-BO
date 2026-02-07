@@ -58,7 +58,7 @@ The model classifies oral images into **six categories**:
 ## 🗂 Dataset Samples
 
 <p align="center">
-  <img src="images/dataset_samples.png" width="400"/>
+  <img src="dataset_samples.png" width="400"/>
 </p>
 
 ---

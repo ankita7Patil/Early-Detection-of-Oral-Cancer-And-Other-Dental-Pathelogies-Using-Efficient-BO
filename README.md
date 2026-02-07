@@ -75,13 +75,20 @@ The following preprocessing techniques were applied:
   * Rotation (±15°)
   * Horizontal flipping
   * Brightness and contrast adjustment
-<p align="center">
-  <img src="1.png" width="400"/>
-</p>
-<p align="center">
-  <img src="2.png" width="400"/>
-</p>
----
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="1.png" width="320"/><br>
+      <b>Before Preprocessing</b>
+    </td>
+    <td align="center">
+      <img src="2.png" width="320"/><br>
+      <b>After Preprocessing</b>
+    </td>
+  </tr>
+</table>
+                          
+
 
 ## 🧠 Model Architecture
 
@@ -120,7 +127,6 @@ The following preprocessing techniques were applied:
   <img src="traning.png" width="400"/>
 </p>
 
-
 ---
 
 ## 📊 Confusion Matrix
@@ -135,9 +141,6 @@ The following preprocessing techniques were applied:
 
 <p align="center">
   <img src="download.png" width="400"/>
-</p>
-<p align="center">
-  <img src="images/training_curve.png" width="400"/>
 </p>
 
 

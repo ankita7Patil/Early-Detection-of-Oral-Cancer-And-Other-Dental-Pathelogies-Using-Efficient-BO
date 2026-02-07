@@ -2,15 +2,10 @@
 
 # 🦷 Early Detection of Oral Cancer and Other Dental Pathologies Using EfficientNet-B0
 
-
 <p align="center">
-  <img src="images/system_architecture.png" width="750"/>
+  <img src="banner (2).png" width="750"/>
 </p>
 
-
-<p align="center">
-  <img src="System_Architecure.png" width="750"/>
-</p>
 
 ---
 
@@ -29,8 +24,6 @@ The system performs **multi-class classification** on intraoral images and is de
 * **Title:** Early Detection of Oral Cancer and Other Dental Pathologies Using EfficientNet-B0
 * **Publisher:** IEEE
 * **Authors:** Ankita Subhash Patil *et al.*
-
-> ⚠️ Please cite the IEEE paper if you use this code or methodology.
 
 ---
 
@@ -56,6 +49,9 @@ The model classifies oral images into **six categories**:
   * Training: 80%
   * Validation: 10%
   * Testing: 10%
+<p align="center">
+  <img src="preprocessingpipeline.png" width="750"/>
+</p>
 
 ---
 
@@ -79,11 +75,15 @@ The following preprocessing techniques were applied:
   * Rotation (±15°)
   * Horizontal flipping
   * Brightness and contrast adjustment
-
 <p align="center">
-  <img src="images/preprocessing.png" width="700"/>
+  <img src="preprocessingpipeline.png" width="700"/>
 </p>
-
+<p align="center">
+  <img src="1.png" width="700"/>
+</p>
+<p align="center">
+  <img src="2.png" width="700"/>
+</p>
 ---
 
 ## 🧠 Model Architecture
@@ -95,8 +95,9 @@ The following preprocessing techniques were applied:
 * **Batch Size:** 32
 * **Epochs:** 50
 
+
 <p align="center">
-  <img src="images/model_architecture.png" width="750"/>
+  <img src="System_Architecure.png" width="750"/>
 </p>
 
 ---
@@ -118,12 +119,17 @@ The following preprocessing techniques were applied:
 | ResNet              | 94%      | 91%       | 89%     | 90%      |
 | **EfficientNet-B0** | **95%**  | **93%**   | **92%** | **92%**  |
 
+<p align="center">
+  <img src="traning.png" width="750"/>
+</p>
+
+
 ---
 
 ## 📊 Confusion Matrix
 
 <p align="center">
-  <img src="images/confusion_matrix.png" width="600"/>
+  <img src="confusionMatix.png" width="600"/>
 </p>
 
 ---
@@ -131,8 +137,12 @@ The following preprocessing techniques were applied:
 ## 📈 Training & Validation Performance
 
 <p align="center">
+  <img src="download.png" width="700"/>
+</p>
+<p align="center">
   <img src="images/training_curve.png" width="700"/>
 </p>
+
 
 ✔ Achieved **95% accuracy**
 ✔ No significant overfitting
@@ -144,6 +154,7 @@ The following preprocessing techniques were applied:
 
 * `EfficientNet (6).ipynb` – Proposed EfficientNet-B0 implementation
 * `ResNet.ipynb` – Baseline comparison model
+* `Densnet.ipynb`-Baseline comparison model
 * `README.md` – Project documentation
 
 ---

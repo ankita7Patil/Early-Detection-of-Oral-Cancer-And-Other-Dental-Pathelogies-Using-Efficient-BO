@@ -50,7 +50,7 @@ The model classifies oral images into **six categories**:
   * Validation: 10%
   * Testing: 10%
 <p align="center">
-  <img src="preprocessingpipeline.png" width="750"/>
+  <img src="preprocessingpipeline.png" width="400"/>
 </p>
 
 ---
@@ -58,7 +58,7 @@ The model classifies oral images into **six categories**:
 ## 🗂 Dataset Samples
 
 <p align="center">
-  <img src="images/dataset_samples.png" width="750"/>
+  <img src="images/dataset_samples.png" width="400"/>
 </p>
 
 ---
@@ -76,13 +76,10 @@ The following preprocessing techniques were applied:
   * Horizontal flipping
   * Brightness and contrast adjustment
 <p align="center">
-  <img src="preprocessingpipeline.png" width="700"/>
+  <img src="1.png" width="400"/>
 </p>
 <p align="center">
-  <img src="1.png" width="700"/>
-</p>
-<p align="center">
-  <img src="2.png" width="700"/>
+  <img src="2.png" width="400"/>
 </p>
 ---
 
@@ -97,7 +94,7 @@ The following preprocessing techniques were applied:
 
 
 <p align="center">
-  <img src="System_Architecure.png" width="750"/>
+  <img src="System_Architecure.png" width="400"/>
 </p>
 
 ---
@@ -120,7 +117,7 @@ The following preprocessing techniques were applied:
 | **EfficientNet-B0** | **95%**  | **93%**   | **92%** | **92%**  |
 
 <p align="center">
-  <img src="traning.png" width="750"/>
+  <img src="traning.png" width="400"/>
 </p>
 
 
@@ -129,7 +126,7 @@ The following preprocessing techniques were applied:
 ## 📊 Confusion Matrix
 
 <p align="center">
-  <img src="confusionMatix.png" width="600"/>
+  <img src="confusionMatix.png" width="400"/>
 </p>
 
 ---
@@ -137,10 +134,10 @@ The following preprocessing techniques were applied:
 ## 📈 Training & Validation Performance
 
 <p align="center">
-  <img src="download.png" width="700"/>
+  <img src="download.png" width="400"/>
 </p>
 <p align="center">
-  <img src="images/training_curve.png" width="700"/>
+  <img src="images/training_curve.png" width="400"/>
 </p>
 
 
